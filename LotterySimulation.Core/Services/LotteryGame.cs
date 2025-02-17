@@ -27,11 +27,15 @@ namespace LotterySimulation.Core.Services
             SetupPlayers();
             AssignTickets();
             DrawWinners();
+
+            Console.WriteLine("Press any key to exit...");
+            Console.ReadKey();
         }
 
         private void SetupPlayers()
         {
             Console.Write("How many tickets would you like to purchase? ");
+
             if (!int.TryParse(Console.ReadLine(), out int playerTickets)) playerTickets = 1;
             playerTickets = Math.Clamp(playerTickets, 1, (int)TicketPricing.MaxTicketsPerPlayer);
 
