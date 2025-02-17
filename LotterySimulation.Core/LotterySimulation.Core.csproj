@@ -7,8 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Interfaces\" />
-    <Folder Include="Services\" />
+    <ProjectReference Include="..\LotterySimulation.Domain\LotterySimulation.Domain.csproj" />
+    <ProjectReference Include="..\LotterySimulation.Infrastructure\LotterySimulation.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

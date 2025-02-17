@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LotterySimulation.Infrastru
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LotterySimulation.UnitTests", "LotterySimulation.UnitTests\LotterySimulation.UnitTests.csproj", "{920630FC-15D9-486C-BA51-06BCA7661E46}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LotterySimulation.Domain", "LotterySimulation.Domain\LotterySimulation.Domain.csproj", "{A27AB135-C2B6-4E51-9647-0DF3F3ACEF9A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{920630FC-15D9-486C-BA51-06BCA7661E46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{920630FC-15D9-486C-BA51-06BCA7661E46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{920630FC-15D9-486C-BA51-06BCA7661E46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A27AB135-C2B6-4E51-9647-0DF3F3ACEF9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A27AB135-C2B6-4E51-9647-0DF3F3ACEF9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A27AB135-C2B6-4E51-9647-0DF3F3ACEF9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A27AB135-C2B6-4E51-9647-0DF3F3ACEF9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
